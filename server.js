@@ -12,4 +12,4 @@ app.use(express.json(), express.urlencoded({ extended: true }));
 //require the routes of my project
 require("./server/routes/pirate.routes")(app);
 
-app.listen(port, () => console.log(`All stations a go on the ship of port ${port}!`));
+app.listen(port, () => console.log(`All stations a go on the ship of port ${port}!`)); 

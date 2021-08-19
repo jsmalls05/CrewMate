@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Form from '../components/Form';
-import axios from 'axios';
+import axios from 'axios'; 
 import { navigate } from '@reach/router';
 
 const NewPirate = props => {
